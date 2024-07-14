@@ -83,14 +83,11 @@ public class TicTacToe // class TicTacToe
                     } // end if to check if there is a winner
                     else if (count >= 7 && isTie(player)) // if there is enough moves to call a tie
                     {
-                        //if (isTie(player)) // check if it is a tie and if so
-                        //{
                         display(); // show the board
                         over = true; // end the round
                         System.out.println("IT IS A TIE!"); // output that it is a tie
                         player1Ties++; // add a tie to player 1's record
                         player2Ties++; // add a tie to player 2's record
-                        // } // end if
                     } // end if
                 } // end if
             } // end the round
